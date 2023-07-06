@@ -59,17 +59,24 @@ nav .bottom {
   align-items: center;
   height: 75px;
   background: #fff;
-  padding-left: 200px;
-  padding-right: 194px;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+.nav .bottom .nav-bottom-links {
+  width: 100%;
+  text-align: end;
 }
 
 nav .bottom .nav-bottom-links ul {
   display: flex;
   gap: 65px;
   list-style: none;
-  align-items: center;
+  align-items: self-end;
   padding-top: 13px;
   padding-left: 0;
+  margin-left: 450px;
 }
 
 nav .bottom .nav-bottom-links ul a {
@@ -583,6 +590,18 @@ footer {
   border: 8px solid #fff;
 }
 
+@media only screen and (max-width: 1170px) {
+  nav .bottom .nav-bottom-links ul {
+    display: flex;
+    gap: 65px;
+    list-style: none;
+    align-items: self-end;
+    padding-top: 13px;
+    padding-left: 0;
+    margin-left: 175px;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   nav .top {
     display: flex;
@@ -621,11 +640,11 @@ footer {
 
   nav .bottom .nav-bottom-links ul {
     display: flex;
-    gap: 65px;
+    gap: 38px;
     list-style: none;
     align-items: center;
     padding-top: 13px;
-    padding-left: 126px;
+    padding-left: 38px;
   }
 
   .home {
@@ -817,7 +836,7 @@ footer {
 @media screen and (max-width: 779px) {
   nav .bottom .nav-bottom-links ul {
     display: flex;
-    gap: 65px;
+    gap: 20px;
     list-style: none;
     align-items: center;
     padding-top: 13px;
