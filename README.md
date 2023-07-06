@@ -20,6 +20,7 @@
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#Presenation Video)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [Goal of the project](#Goaloftheproject)
@@ -49,7 +50,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-https://ethred.github.io/Portfolio/
+https://ethred.github.io/Capstone/
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -108,6 +109,10 @@ Live Preview on Visual Studio Code
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/). +<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Presenation Video <a name="Video"></a>
+
+https://www.loom.com/share/ec23564408e74a5391bd475ce7c0f9e7
 
 ## ⭐️ Show your support <a name="support"></a>
 
