@@ -1,0 +1,1249 @@
+/* Homepage */
+body {
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  margin: 0;
+}
+
+.active {
+  color: white;
+}
+
+nav .top {
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+  background: #3e3e3e;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  color: #fff;
+  height: 25px;
+  align-items: center;
+  width: 100%;
+}
+
+.entry-logo img {
+  width: 200px;
+  height: 200px;
+  padding-left: 600px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+nav .top img {
+  width: 10.12px;
+  height: 15px;
+}
+
+nav .top ul {
+  display: flex;
+  list-style: none;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  gap: 1rem;
+  padding-right: 190px;
+  padding-left: 0;
+}
+
+nav .bottom {
+  display: flex;
+  gap: 125px;
+  align-items: center;
+  height: 75px;
+  background: #fff;
+  padding-left: 200px;
+  padding-right: 194px;
+}
+
+nav .bottom .nav-bottom-links ul {
+  display: flex;
+  gap: 65px;
+  list-style: none;
+  align-items: center;
+  padding-top: 13px;
+}
+
+nav .bottom .nav-bottom-links ul a {
+  text-decoration: none;
+  font-weight: 800px;
+  font-size: 14px;
+  color: #868686;
+  transition: 0.3s ease;
+}
+
+nav .bottom .nav-bottom-links ul a:hover {
+  color: red;
+}
+
+nav .bottom img {
+  width: 128px;
+  cursor: pointer;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+nav .bottom .nav-bottom-links button {
+  outline: 5px solid #ec4327;
+  height: 48px;
+  width: 123px;
+  background: none;
+  color: #ec4327;
+  cursor: pointer;
+}
+
+.home {
+  background-image:
+    linear-gradient(
+      rgba(235, 234, 238, 0.3),
+      rgba(247, 247, 247, 0.7)
+    ),
+    url(images/backgroud.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 160px;
+  margin-bottom: -30px;
+}
+
+.home .content {
+  width: 100%;
+  height: 470px;
+  margin-top: 30px;
+  padding-top: 90px;
+}
+
+.Courses h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: #3e3e3e;
+}
+
+.home .moto h1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: #ec524299;
+  margin-bottom: px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(images/4006.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  margin-left: 200px;
+}
+
+.home .content .motivation {
+  padding: 10px;
+  outline: 5px solid #fff;
+  width: 50%;
+  margin-left: 200px;
+}
+
+.past-GC p,
+.entry-logo p {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 100px;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 43px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: #838383;
+}
+
+footer .footer-content h4,
+footer .footer-content p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #000;
+}
+
+.home .content p {
+  margin: 0.15px;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color: #515151;
+  padding-right: 80px;
+  text-align: justify;
+}
+
+.past-GC h2,
+.entry-logo h2 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 100px;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 43px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.home .content .registration h2 {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 42px;
+  font-weight: 900;
+  letter-spacing: -0.08em;
+  text-align: left;
+  color: #595959;
+  margin-bottom: 0;
+  width: 50%;
+  margin-left: 200px;
+}
+
+.main-program .main-footer p {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  text-decoration-line: underline;
+  text-align: center;
+}
+
+.about-footer .footer-content h4,
+.about-footer .footer-content p {
+  color: #fff;
+}
+
+.home .content .registration p {
+  background: none;
+  margin-top: 0;
+  width: 50%;
+  margin-left: 200px;
+}
+
+.main-program {
+  background: url(images/background-main.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.main-program .title {
+  align-items: center;
+  margin-left: 628px;
+  margin-bottom: 72px;
+}
+
+.community-experts h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  color: #121010;
+  margin-bottom: 0;
+  padding-top: 75px;
+  text-align: center;
+}
+
+.partners h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  color: #121010;
+  margin-bottom: 0;
+  padding-top: 30px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.main-program .title h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 0;
+  padding-top: 75px;
+}
+
+.main-program .features-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2px;
+  margin-bottom: 44px;
+  margin-left: 211px;
+  margin-right: 100px;
+}
+
+.main-program .features-card .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #3b3e46;
+  padding-bottom: 30px;
+}
+
+.main-program .title img {
+  padding-left: 60px;
+  padding-bottom: 10px;
+}
+
+.main-program .features-card .card .card-title h4 {
+  font-size: 24px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  color: #ff5438;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.main-program .features-card .card .card-content p {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0.72px;
+}
+
+.Courses {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 60px;
+}
+
+.Courses .course-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 48px;
+  align-items: center;
+}
+
+.Courses .course-card {
+  text-align: start;
+  position: relative;
+  background: #fff;
+  height: fit-content;
+}
+
+.about-programe .content img {
+  text-align: center;
+  padding-left: 700px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.Courses .course-cards .course-card img {
+  width: 338px;
+  height: 250px;
+  background-position: center;
+}
+
+.Courses .course-cards .course-card .cousre-card-detail h2 {
+  font-family: "Lato", sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Courses .course-cards .course-card .cousre-card-detail {
+  width: 100%;
+  padding-left: 12px;
+  background: #d1d1d1;
+  padding-bottom: 15px;
+  margin-top: 0;
+}
+
+.Courses .course-cards .course-card .cost {
+  background-color: rgb(250, 250, 250);
+  color: #121111;
+  line-height: 50px;
+  font-weight: 800;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  right: -12px;
+  top: 200px;
+}
+
+.Courses .course-cards .course-card .cousre-card-detail .date {
+  color: #4f4e4e;
+}
+
+.checked {
+  color: orange;
+}
+
+.community-experts {
+  background: #f8f8f8;
+  padding-bottom: 60px;
+}
+
+.experts-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+  gap: 48px;
+  padding-left: 205px;
+  padding-right: 200px;
+  margin-top: 76px;
+}
+
+.community-experts .experts-cards .community-expert {
+  display: flex;
+  width: 85%;
+}
+
+.community-experts .experts-cards .community-expert .expert-detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  padding-top: 15px;
+}
+
+.community-experts .experts-cards .community-expert .expert-detail .expert-name {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #000;
+}
+
+.community-experts .experts-cards .community-expert .expert-detail .expert-position {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.09em;
+  text-align: left;
+  color: #f78c89;
+}
+
+.community-experts .experts-cards .community-expert .expert-detail p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  text-align: left;
+}
+
+.community-experts .title-image {
+  padding-left: 48%;
+}
+
+.partners {
+  background: #414246;
+}
+
+.partners .title-image {
+  padding-left: 48%;
+}
+
+.partners .partner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 180px;
+  padding-right: 80px;
+}
+
+footer {
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  padding: 45px 220px;
+  gap: 65px;
+}
+
+.mobile-menu {
+  padding-left: 20px;
+  padding-top: 20px;
+  display: none;
+}
+
+.join-button {
+  display: none;
+}
+
+/* about-us */
+.about-programe {
+  background: #f7f7f8;
+  padding-top: 30px;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  padding-bottom: 70px;
+}
+
+.about-programe .content h1 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 60px;
+  color: #ec4327;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.about-programe .content .main-content {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0;
+  background: #fff;
+  text-align: center;
+  padding: 65px 0;
+  margin-top: 50px;
+  margin-left: 140px;
+  margin-bottom: 30px;
+  width: 80%;
+}
+
+.about-programe .content .address {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 100px;
+  font-size: 14px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+}
+
+.entry-logo hr {
+  color: #d1d1d1;
+  font-size: 24px;
+}
+
+.past-GC {
+  padding-bottom: 95px;
+}
+
+.past-GC .gc-picture {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.about-footer {
+  background: #2e2e2e;
+}
+
+.partners.about {
+  display: none;
+}
+
+.about-footer-mobile {
+  display: none;
+}
+
+#seeMore {
+  display: none;
+}
+
+#seeLess {
+  display: none;
+}
+
+.mobile-menu-contaner .sub-list {
+  display: none;
+}
+
+#mobile-menu-contaner {
+  display: none;
+}
+
+.mobile-menu-contaner .close-icon {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  nav .top {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    background: #3e3e3e;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    color: #fff;
+    height: 25px;
+    align-items: center;
+    width: 100%;
+  }
+
+  nav .bottom {
+    display: flex;
+    gap: 0;
+    align-items: center;
+    height: 75px;
+    background: #fff;
+    padding-left: 2px;
+    padding-right: 0;
+  }
+
+  .home {
+    background-image:
+      linear-gradient(
+        rgba(235, 234, 238, 0.3),
+        rgba(247, 247, 247, 0.7)
+      ),
+      url(images/backgroud.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 160px;
+    padding-right: 105px;
+    margin-bottom: -30px;
+  }
+
+  .main-program {
+    background: url(images/background-main.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-right: 96px;
+  }
+
+  .main-program .title {
+    align-items: center;
+    margin-left: 417px;
+    margin-bottom: 20px;
+  }
+
+  .Courses {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 60px;
+    width: 100%;
+    padding-right: 10px;
+  }
+
+  .Courses .course-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(198px, 1fr));
+    gap: 79px;
+    padding-left: 0;
+  }
+
+  .entry-logo img {
+    width: 200px;
+    height: 200px;
+    padding-left: 299px;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .Courses .course-cards .course-card img {
+    width: 290px;
+    height: 250px;
+    background-position: center;
+  }
+
+  .Courses .course-cards .course-card .cousre-card-detail {
+    width: 100%;
+    padding-left: 12px;
+    background: #d1d1d1;
+    padding-bottom: 15px;
+    margin-top: 0;
+  }
+
+  .community-experts {
+    background: #f8f8f8;
+    padding-bottom: 60px;
+    width: 100%;
+    padding-left: 60px;
+  }
+
+  .community-experts .experts-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+    gap: 48px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 76px;
+  }
+
+  .partners {
+    background: #414246;
+    width: 100%;
+    padding-right: 96px;
+  }
+
+  .partners .partner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: -11px;
+    padding-bottom: 20px;
+    padding-left: 0;
+  }
+
+  footer {
+    background: #f2f2f2;
+    display: none;
+    align-items: center;
+    padding: 45px 220px;
+    gap: 65px;
+    width: 100%;
+  }
+
+  .past-GC .gc-picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 30px;
+  }
+
+  .past-GC p,
+  .entry-logo p {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 100px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 43px;
+    margin-left: 148px;
+    margin-right: 167px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #838383;
+  }
+
+  .about-programe .content .main-content {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0;
+    background: #fff;
+    text-align: center;
+    padding: 65px 35px;
+    margin-top: 21px;
+    margin-left: 30px;
+    margin-right: 70px;
+    margin-bottom: 30px;
+  }
+
+  .about-programe .content .address {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 100px;
+    font-size: 14px;
+    margin-left: 165px;
+    margin-right: 128px;
+    text-align: center;
+  }
+
+  .about-footer-mobile {
+    display: flex;
+    width: 100%;
+    padding: 30px 1.5px;
+    justify-self: start;
+  }
+
+  footer .footer-content h4,
+  footer .footer-content p {
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    color: #1d1818;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .mobile-menu {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .home .moto h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #ec524299;
+    margin-bottom: px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: url(images/4006.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin-left: 30px;
+  }
+
+  .home .content .motivation {
+    padding: 10px;
+    outline: 5px solid #fff;
+    width: 100%;
+    margin-left: 30px;
+  }
+
+  .past-GC h2,
+  .entry-logo h2 {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 100px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 43px;
+    padding-bottom: 0;
+  }
+
+  .home .content .registration h2 {
+    font-family: "Gothic A1", sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: -0.08em;
+    text-align: left;
+    color: #595959;
+    margin-bottom: 0;
+    width: 100%;
+    margin-left: 30px;
+  }
+
+  .past-GC p,
+  .entry-logo p {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 100px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: #838383;
+    width: 100%;
+    padding-top: 43px;
+    margin-left: 23px;
+    margin-right: 24px;
+    margin-top: 10px;
+  }
+
+  .home .content .registration p {
+    background: none;
+    margin-top: 0;
+    width: 50%;
+    margin-left: 30px;
+  }
+
+  .about-programe .content h1 {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-size: 60px;
+    color: #ec4327;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 83px;
+  }
+
+  .home .content {
+    width: 100%;
+    height: 470px;
+    margin-top: 30px;
+    padding-top: 103px;
+    margin-left: 0;
+  }
+
+  .main-program .features-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 2px;
+    margin-bottom: 70px;
+    margin-left: 40px;
+    margin-right: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    padding-top: 10px;
+    padding-left: 15px;
+  }
+
+  .main-program .features-card .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    background: #3b3e46;
+    padding-bottom: 40px;
+    gap: 40px;
+  }
+
+  .main-footer {
+    display: none;
+  }
+
+  .join-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #ff4f38;
+    width: 100%;
+    height: 86px;
+    object-fit: contain;
+    margin-left: 53px;
+  }
+
+  .join-button button {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+    letter-spacing: -0.16px;
+    background: #ff4f38;
+    width: 100%;
+    height: 86px;
+  }
+
+  .entry-logo img {
+    width: 200px;
+    height: 200px;
+    padding-left: 90px;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .about-programe .content img {
+    text-align: center;
+    padding-left: 242px;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .mobile-menu .logo img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .mobile-menu-contaner .close-icon img {
+    width: 94px;
+    height: 82px;
+    padding-left: 920px;
+    padding-top: 10px;
+  }
+
+  .Courses .course-cards .course-card img {
+    width: 390px;
+    height: 250px;
+    background-position: center;
+  }
+
+  .community-experts .experts-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 29px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 76px;
+  }
+
+  .community-experts {
+    background: #f8f8f8;
+    padding-bottom: 60px;
+    width: 100%;
+    padding-right: 40px;
+  }
+
+  .main-program {
+    background: url(images/background-main.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-right: 110px;
+  }
+
+  .main-program .features-card .images {
+    width: 10%;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .main-program .features-card .card-title {
+    width: 30%;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .main-program .features-card .card-content {
+    width: 40%;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .partners .partner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(154px, 1fr));
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: -11px;
+    padding-bottom: 20px;
+    padding-left: 54px;
+    padding-right: 118px;
+    width: 100%;
+    background: #000;
+  }
+
+  .main-program .title {
+    align-items: center;
+    margin-left: 91px;
+    margin-bottom: 72px;
+  }
+
+  .partners h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 0;
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 0;
+    width: 100%;
+    background: #000;
+    padding-bottom: 39px;
+    padding-right: 172px;
+  }
+
+  .main-program .title h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 0;
+    padding-top: 75px;
+    text-align: left;
+  }
+
+  .partners {
+    display: none;
+    background: #414246;
+    width: 100%;
+  }
+
+  footer {
+    display: none;
+  }
+
+  #second,
+  #fourth,
+  #fifth,
+  #sixth {
+    display: none;
+  }
+
+  /* about-us */
+  .about-programe {
+    background: #f7f7f8;
+    padding-top: 30px;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    padding-bottom: 43px;
+    padding-right: 157px;
+  }
+
+  .about-programe .content .address {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 100px;
+    font-size: 14px;
+    margin-left: 60px;
+    margin-right: 5px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .about-programe .content .main-content {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0;
+    text-align: center;
+    background: #fff;
+    padding: 30px 62px;
+    margin-top: 50px;
+    margin-left: 36px;
+    margin-right: 68px;
+    margin-bottom: 30px;
+  }
+
+  .entry-logo {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 45px;
+    margin-left: 43px;
+    align-items: center;
+  }
+
+  .past-GC {
+    padding-bottom: 50px;
+    width: 100%;
+    padding-left: 22px;
+    padding-right: 20px;
+    margin-left: 37px;
+  }
+
+  .past-GC .gc-picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+  .partners.about {
+    display: contents;
+    background: #000;
+    width: 100%;
+  }
+
+  .about-footer-mobile {
+    display: flex;
+    width: 100%;
+    margin-right: 37px;
+    padding: 30px 15px;
+    padding-right: 157px;
+    justify-self: start;
+  }
+
+  #seeMore {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 15px;
+    color: #000;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.55px;
+    padding-left: 145px;
+    padding-top: 8px;
+    border-radius: 10px;
+    background: none;
+  }
+
+  #seeLess {
+    display: none;
+    gap: 20px;
+    width: 100%;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 15px;
+    color: #000;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.55px;
+    padding-left: 145px;
+    padding-top: 8px;
+    border-radius: 10px;
+    background: none;
+  }
+
+  .arrow {
+    color: red;
+  }
+
+  #mobile-menu-contaner {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    color: #fff;
+    top: -2px;
+    background-color: rgba(64, 83, 252, 0.8);
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  .mobile-menu-contaner .close-icon {
+    display: flex;
+    text-align: right;
+    padding-right: 50px;
+    width: 98%;
+  }
+
+  .mobile-menu-contaner .sub-list a {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #fff;
+    text-decoration-line: none;
+    margin-left: 20px;
+  }
+
+  .mobile-menu-contaner .sub-list a:active {
+    background: #ff5438;
+  }
+
+  .mobile-menu-contaner .sub-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-menu-contaner ul li {
+    list-style: none;
+    margin-top: 10px;
+  }
+
+  .community-experts .experts-cards .community-expert .expert-detail {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    padding-top: 15px;
+  }
+}
