@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-  <h3><b>Portfolio</b></h3>
+  <h3><b>WebCourse-site</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -55,7 +55,7 @@ https://ethred.github.io/Capstone/
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps. Clone this repo using this link:
-https://github.com/ethred/Portfolio.git
+https://github.com/ethred/Capstone
 
 ### Prerequisites
 

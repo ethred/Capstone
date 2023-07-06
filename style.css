@@ -24,6 +24,12 @@ nav .top {
   width: 100%;
 }
 
+footer img,
+.about-footer img {
+  width: 250px;
+  height: 153px;
+}
+
 .entry-logo img {
   width: 200px;
   height: 200px;
@@ -63,6 +69,7 @@ nav .bottom .nav-bottom-links ul {
   list-style: none;
   align-items: center;
   padding-top: 13px;
+  padding-left: 139px;
 }
 
 nav .bottom .nav-bottom-links ul a {
@@ -94,8 +101,7 @@ nav .bottom .nav-bottom-links button {
 }
 
 .home {
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       rgba(235, 234, 238, 0.3),
       rgba(247, 247, 247, 0.7)
     ),
@@ -408,7 +414,11 @@ footer .footer-content p {
   padding-top: 15px;
 }
 
-.community-experts .experts-cards .community-expert .expert-detail .expert-name {
+.community-experts
+  .experts-cards
+  .community-expert
+  .expert-detail
+  .expert-name {
   font-family: "Lato", sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -418,7 +428,11 @@ footer .footer-content p {
   color: #000;
 }
 
-.community-experts .experts-cards .community-expert .expert-detail .expert-position {
+.community-experts
+  .experts-cards
+  .community-expert
+  .expert-detail
+  .expert-position {
   font-family: "Lato", sans-serif;
   font-size: 15px;
   font-weight: 700;
@@ -572,6 +586,10 @@ footer {
   display: none;
 }
 
+.main-program .features-card .card:hover {
+  border: 8px solid #fff;
+}
+
 @media only screen and (max-width: 1000px) {
   nav .top {
     display: flex;
@@ -598,8 +616,7 @@ footer {
   }
 
   .home {
-    background-image:
-      linear-gradient(
+    background-image: linear-gradient(
         rgba(235, 234, 238, 0.3),
         rgba(247, 247, 247, 0.7)
       ),
@@ -935,6 +952,11 @@ footer {
     padding-top: 0;
   }
 
+  .about-footer-mobile img {
+    width: 250px;
+    height: 166px;
+  }
+
   .about-programe .content img {
     text-align: center;
     padding-left: 242px;
@@ -1016,17 +1038,16 @@ footer {
   }
 
   .partners .partner {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(154px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 5px;
     margin-top: -11px;
     padding-bottom: 20px;
     padding-left: 54px;
-    padding-right: 118px;
+    padding-right: 0;
     width: 100%;
-    background: #000;
   }
 
   .main-program .title {
@@ -1044,9 +1065,8 @@ footer {
     text-align: center;
     margin-top: 0;
     width: 100%;
-    background: #000;
     padding-bottom: 39px;
-    padding-right: 172px;
+    padding-right: 0;
   }
 
   .main-program .title h3 {
@@ -1139,9 +1159,13 @@ footer {
   }
 
   .partners.about {
-    display: contents;
-    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #414246;
     width: 100%;
+    text-align: center;
+    padding-left: 100px;
   }
 
   .about-footer-mobile {
@@ -1245,5 +1269,9 @@ footer {
     flex-direction: column;
     margin-left: 24px;
     padding-top: 15px;
+  }
+
+  .main-program .features-card .card:hover {
+    border: 8px solid #fff;
   }
 }
