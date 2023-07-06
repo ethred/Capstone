@@ -49,7 +49,7 @@ nav .top ul {
   font-family: "Lato", sans-serif;
   font-style: normal;
   gap: 1rem;
-  padding-right: 190px;
+  padding-right: 63px;
   padding-left: 0;
 }
 
@@ -69,7 +69,7 @@ nav .bottom .nav-bottom-links ul {
   list-style: none;
   align-items: center;
   padding-top: 13px;
-  padding-left: 139px;
+  padding-left: 0;
 }
 
 nav .bottom .nav-bottom-links ul a {
@@ -280,8 +280,8 @@ footer .footer-content p {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2px;
   margin-bottom: 44px;
-  margin-left: 211px;
-  margin-right: 100px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .main-program .features-card .card {
@@ -596,6 +596,7 @@ footer {
     height: 25px;
     align-items: center;
     width: 100%;
+    padding-right: 17px;
   }
 
   nav .bottom {
@@ -606,6 +607,25 @@ footer {
     background: #fff;
     padding-left: 2px;
     padding-right: 0;
+  }
+
+  nav .top ul {
+    display: flex;
+    list-style: none;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    gap: 1rem;
+    padding-right: 63px;
+    padding-left: 20px;
+  }
+
+  nav .bottom .nav-bottom-links ul {
+    display: flex;
+    gap: 65px;
+    list-style: none;
+    align-items: center;
+    padding-top: 13px;
+    padding-left: 126px;
   }
 
   .home {
@@ -620,7 +640,7 @@ footer {
     width: 100%;
     height: 100vh;
     padding-bottom: 160px;
-    padding-right: 105px;
+    padding-right: 10px;
     margin-bottom: -30px;
   }
 
@@ -630,13 +650,22 @@ footer {
     background-position: center;
     width: 100%;
     padding-bottom: 30px;
-    padding-right: 96px;
+    padding-right: 10px;
   }
 
   .main-program .title {
     align-items: center;
     margin-left: 417px;
     margin-bottom: 20px;
+  }
+
+  .main-program .features-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(172px, 1fr));
+    gap: 2px;
+    margin-bottom: 44px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   .Courses {
@@ -680,7 +709,7 @@ footer {
     background: #f8f8f8;
     padding-bottom: 60px;
     width: 100%;
-    padding-left: 60px;
+    padding-left: 10px;
   }
 
   .community-experts .experts-cards {
@@ -695,7 +724,7 @@ footer {
   .partners {
     background: #414246;
     width: 100%;
-    padding-right: 96px;
+    padding-right: 17px;
   }
 
   .partners .partner {
@@ -782,6 +811,17 @@ footer {
     font-weight: 700;
     text-align: left;
     color: #1d1818;
+  }
+}
+
+@media screen and (max-width: 779px) {
+  nav .bottom .nav-bottom-links ul {
+    display: flex;
+    gap: 65px;
+    list-style: none;
+    align-items: center;
+    padding-top: 13px;
+    padding-left: 0;
   }
 }
 
